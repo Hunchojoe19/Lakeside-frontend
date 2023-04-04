@@ -1,0 +1,97 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+.left-container{
+    width: 60vw;
+    min-height: 98vh;
+    background-image: url("https://img.freepik.com/free-photo/colonial-style-house-night-scene_1150-17925.jpg?size=626&ext=jpg&ga=GA1.2.2134358197.1654262863&semt=sph");
+    background-size: cover;
+    background-color: rgb(167, 157, 157);
+    background-blend-mode: darken;
+}
+.left-container-login{
+    width: 60vw;
+    min-height: 100vh;
+    background-image: url("https://img.freepik.com/premium-photo/dark-modern-stylish-male-apartment-interior-with-lighting-decorative-walls-fireplace-dressing-area-huge-window_267786-302.jpg?size=626&ext=jpg&ga=GA1.2.2134358197.1654262863&semt=sph");
+    background-size: cover;
+    background-color: rgb(167, 157, 157);
+}
+.left-container h1{
+    font-family: 'Dancing Script';
+    font-size: 3.5rem;
+    color: white;
+    margin: 3rem;
+    justify-content: center;
+    align-items: center;
+    padding: 20rem 3rem;
+}
+.left-container-login h1{
+    font-family: 'Dancing Script';
+    font-size: 3.5rem;
+    color: white;
+    margin: 3rem;
+    justify-content: center;
+    align-items: center;
+    padding: 20rem 3rem;
+}
+.left-container img{
+    width: 49.7vw;
+    min-height: 90vh;
+
+}
+.right-container{
+    width: 60vw;
+    max-height: 90vh;
+}
+.register-container{
+    position: absolute;
+    width: 30vw;
+    height: 40vh;
+    padding: 10rem 5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+    border: 5px light grey;
+    padding-top: 10rem; 
+    margin: 5rem 5rem;
+    border-radius: 20px;
+    background-color: rgb(204, 200, 200)
+}
+.register-container form{
+ max-width: 90vw;
+ display: flex;
+ flex-direction: column;
+}
+.register-container label {
+    font-size: 1rem;
+    margin: 0 4rem;
+    font-family: 'Quicksand';
+}
+.register-container input{
+    width: 20vw;
+    font-size: 1.4rem;
+    margin: .4rem 4rem;
+    padding: .4rem 0;
+    border-radius: 8px;
+}
+.register-container button{
+    width: 10vw;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    padding: 1rem 1rem;
+    justify-items: center;
+    margin: 1rem 9rem;
+    cursor: pointer;
+    
+}
+.register-container button:hover{
+    background-color: rgb(93, 93, 168);
+    color: rgb(218, 199, 199);
+}
+
+
+
